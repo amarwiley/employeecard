@@ -1,3 +1,9 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +36,120 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#empSearchInput{
+  margin-top: 5%;
+  width: 450px;
+  height: 18px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  outline: none;
+}
+
+#searchClearBtn{
+  height: 43px;
+  width: 130px;
+  font-size: 20px;
+  outline: none;
+  background-color: #b3d9ff;
+  color: #000080;
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+
+#empNameFilterList{
+  width: 450px;
+  margin-left: 390px;
+  height: auto;
+  max-height: 120px;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+#empNameFilterList > ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.empNameFilterRes{
+  background-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.empNameFilterRes{
+  border: 1px dotted #000;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.empNameFilterRes:hover{
+  background-color: #eeeeee;
+}
+
+#employeeCardDetails{
+  text-align: left;
+  background-color: #fff;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  margin-left: 383px;
+  word-wrap: break-word;
+}
+
+#employeeCardDetails > ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+#empProfilePic{
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 18px;
+}
+
+#empProfilePic > img{
+  height: 120px;
+  width: 120px;
+  margin-top: 15px;
+}
+
+#empProfileShowName{
+  margin-left: 160px;
+  margin-top: -85px;
+}
+
+#empProfileShowRole{
+  margin-left: 160px;
+}
+
+#empProfileShowProjectSupervisorLogin{
+  margin-top: 60px;
+}
+
+.profileFirstColumn{
+  width: 20%;
+  text-align: right;
+}
+
+.profileSecondColumn{
+  width: 60%;
+}
+
+#empProfileShowProject{
+  
+}
+
+#empProfileShowSupervisor{
+  
+}
+
+#empProfileShowLastLogin{
+  
 }
